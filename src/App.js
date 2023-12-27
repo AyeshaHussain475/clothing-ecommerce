@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/signup" element={<SignUp />} />
-        {/* <Route exact path="/products" element={<Products />} /> */}
+        {/* <Route exact path="/products-listing" element={<Products />} /> */}
         <Route exact path="/add-product" element={<AddProduct />} />
         <Route path="/product/:productId" element={<AddProduct />} />
         <Route element={<RequireAuth />}>
