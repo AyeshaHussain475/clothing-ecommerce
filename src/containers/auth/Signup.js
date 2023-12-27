@@ -31,7 +31,7 @@ const SignUp = () => {
       <Stack
         spacing={2}
         sx={{
-          marginTop: "50px", // Adjust the margin top value as needed
+          marginTop: "50px", //Adjust the margin top value as needed
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
